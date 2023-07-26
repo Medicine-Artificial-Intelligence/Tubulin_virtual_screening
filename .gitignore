@@ -1,2 +1,5 @@
 .ipynb_checkpoints
 __pycache__
+Data/AD/ad_A549.csv
+Data/AD/ad_MDAMB231.csv
+Data/AD/ad_Tubulin.csv

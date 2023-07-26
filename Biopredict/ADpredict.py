@@ -19,6 +19,7 @@ class Applicability_domain_LOF:
         y_pred_outliers = pd.DataFrame(clf.predict(self.X), columns = [f'AD_{target_type}'])
         y_pred_outliers.loc[y_pred_outliers.values==1]='In'
         y_pred_outliers.loc[y_pred_outliers.values==-1]='Out'
+        y_pred_outliers.index = self.data[self.ID_col].values
         self.data = pd.concat([self.data,y_pred_outliers], axis =1)
         #return data
     

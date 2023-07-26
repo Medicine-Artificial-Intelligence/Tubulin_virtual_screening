@@ -22,6 +22,7 @@ class featurizer:
             self.data['FPs'] = self.data['Molecule'].apply(self.RDKFp)
             X = np.stack(self.data.FPs.values)
             df = pd.DataFrame(X)
+            df.index = self.data[self.ID_col].values
             df= pd.concat([self.data, df], axis = 1).drop([self.data.columns[1],"FPs", "Molecule"], axis =1)
             df[self.active_col] = 0
             df.columns = df.columns.astype('string')
