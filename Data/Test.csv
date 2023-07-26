@@ -1,0 +1,10 @@
+Name,SMILES,ID,IC50,pIC50
+colchicine,COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1[C@@H](NC(C)=O)CC2,CHEMBL107,15,7.823908741
+combretastatin A-4,COc1ccc(/C=C\c2cc(OC)c(OC)c(OC)c2)cc1O,CHEMBL67,30,7.522878745
+vinblastine,CC[C@]1(O)C[C@@H]2CN(CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C)[C@H]3[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1,CHEMBL159,130,6.886056648
+vincristine,CC[C@]1(O)C[C@H]2CN(CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C=O)[C@H]3[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1,CHEMBL90555,100,7
+Vinorelbine,CCC1=C[C@@H]2CN(C1)Cc1c([nH]c3ccccc13)[C@@](C(=O)OC)(c1cc3c(cc1OC)N(C)[C@H]1[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]4(CC)C=CCN5CC[C@]31[C@@H]54)C2,CHEMBL553025,9,8.045757491
+Paclitaxel,CC(=O)O[C@H]1C(=O)[C@@]2(C)[C@H]([C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)c4ccccc4)c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O,CHEMBL428647,20,7.698970004
+Docetaxel,CC(=O)O[C@@]12CO[C@@H]1C[C@H](O)[C@@]1(C)C(=O)[C@H](O)C3=C(C)[C@@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c4ccccc4)C[C@@](O)([C@@H](OC(=O)c4ccccc4)[C@H]21)C3(C)C,CHEMBL92,734,6.13430394
+Pironetin,C/C=C/C[C@H](C)[C@@H](OC)[C@@H](C)[C@H](O)C[C@H]1OC(=O)C=C[C@H]1CC,CHEMBL1779811,15,7.823908741
+Maytansine,COc1cc2cc(c1Cl)N(C)C(=O)C[C@H](OC(=O)[C@H](C)N(C)C(C)=O)[C@]1(C)O[C@H]1[C@H](C)[C@@H]1C[C@@](O)(NC(=O)O1)[C@H](OC)/C=C/C=C(\C)C2,CHEMBL292702,0.1,10
